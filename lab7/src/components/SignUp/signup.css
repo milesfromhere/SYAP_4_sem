@@ -1,0 +1,47 @@
+.signup-container {
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+.signup-form {
+  margin-top: 1rem;
+}
+
+.signup-form button[type="submit"] {
+  margin-top: 1.5rem;
+  background-color: var(--primary);
+  width: 100%;
+  padding: 1rem;
+  transition: all 0.3s ease;
+}
+
+.signup-form button[type="submit"]:hover {
+  background-color: var(--primary-hover);
+  transform: translateY(-2px);
+}
+
+.confirm-password {
+  margin-top: 1rem;
+}
+
+.terms-checkbox {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.terms-checkbox input {
+  width: auto;
+  margin-right: 0.5rem;
+}
+
+.terms-checkbox label {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  color: var(--text-light);
+}
+
+.terms-checkbox a {
+  color: var(--primary);
+  text-decoration: none;
+}

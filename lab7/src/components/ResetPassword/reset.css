@@ -1,0 +1,38 @@
+.reset-form {
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+.reset-form button[type="submit"] {
+  background-color: var(--success);
+  width: 100%;
+  padding: 1rem;
+  transition: all 0.3s ease;
+}
+
+.reset-form button[type="submit"]:hover {
+  background-color: #3aa8d8;
+  transform: translateY(-2px);
+}
+
+.reset-instructions {
+  color: var(--text-light);
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.reset-success {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.reset-success h3 {
+  color: var(--text);
+  margin-bottom: 0.5rem;
+}
+
+.reset-success p {
+  color: var(--text-light);
+  font-size: 0.95rem;
+}

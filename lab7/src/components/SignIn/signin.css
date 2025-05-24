@@ -1,0 +1,72 @@
+.social-auth {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.social-buttons button {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 2px solid var(--border);
+  background: var(--card-bg);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.social-buttons button:hover {
+  background: var(--background);
+  transform: translateY(-2px);
+}
+
+.divider {
+  position: relative;
+  margin: 2rem 0;
+  color: var(--text-light);
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 45%;
+  height: 1px;
+  background: var(--border);
+}
+
+.signin-form {
+  margin-top: 1.5rem;
+}
+
+.auth-error {
+  background: rgba(247, 37, 133, 0.1);
+  color: var(--text);
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem 0;
+  text-align: center;
+  border: 1px solid var(--error);
+}
+
+.forgot-password {
+  text-align: right;
+  margin-top: 0.5rem;
+}
+
+.forgot-password a {
+  color: var(--text-light);
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.forgot-password a:hover {
+  color: var(--primary);
+}
